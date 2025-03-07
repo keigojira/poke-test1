@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+h1 {
+    color: #ff4444;
+}
+
+.battlefield {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px;
+}
+
+.pokemon {
+    border: 2px solid #444;
+    padding: 20px;
+    background-color: white;
+    width: 150px;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+button {
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#log {
+    margin-top: 20px;
+    font-weight: bold;
+}
