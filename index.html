@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ポケモンバトル</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>ポケモンバトル！</h1>
+
+    <div class="battlefield">
+        <div class="pokemon">
+            <h2>ピカチュウ ⚡</h2>
+            <p>HP: <span id="pikachu-hp">100</span></p>
+        </div>
+        <div class="pokemon">
+            <h2>ヒトカゲ 🔥</h2>
+            <p>HP: <span id="charmander-hp">100</span></p>
+        </div>
+    </div>
+
+    <div class="controls">
+        <h3>ピカチュウの攻撃</h3>
+        <button onclick="attack('pikachu', 'charmander', 20)">でんきショック ⚡</button>
+        <button onclick="attack('pikachu', 'charmander', 30)">10まんボルト ⚡⚡</button>
+    </div>
+
+    <div id="log"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
